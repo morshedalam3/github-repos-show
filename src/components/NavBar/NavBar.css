@@ -1,0 +1,15 @@
+.avatar{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.custom-display{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .custom-display{
+        display: block;
+    }
+.custom-display-main{
+    display: none!important;
+}
+  }
